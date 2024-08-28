@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import {PaperClipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon} from "lucide-react";
+import {PaperclipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon} from "lucide-react";
 
 export const DATA = {
   name: "Jordan Baumard",
