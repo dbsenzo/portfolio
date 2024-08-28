@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import {FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon} from "lucide-react";
+import {PaperClipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon} from "lucide-react";
 
 export const DATA = {
   name: "Jordan Baumard",
@@ -25,7 +25,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://resume.jordanbaumard.fr", icon: PaperClipIcon, label: "Resume" },
   ],
   contact: {
     email: "jordanbmrd@gmail.com",
