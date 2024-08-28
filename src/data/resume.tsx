@@ -25,7 +25,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://resume.jordanbaumard.fr", icon: PaperClipIcon, label: "Resume" },
+    { href: "https://resume.jordanbaumard.fr", icon: PaperclipIcon, label: "Resume" },
   ],
   contact: {
     email: "jordanbmrd@gmail.com",
