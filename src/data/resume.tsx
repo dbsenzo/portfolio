@@ -71,7 +71,7 @@ export const DATA = {
   work: [
     {
       company: "Renault Group",
-      href: "https://atomic.finance",
+      href: "https://www.renaultgroup.com",
       badges: [],
       location: "Le Mans, France",
       title: "Software Engineer (Work-study program)",
@@ -79,31 +79,31 @@ export const DATA = {
       start: "September 2021",
       end: "Current",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "- Digital transformation of Le Mans plant processes<br />- Analysis of requirements and proposal of appropriate solutions<br />- Maintenance of existing applications<br />- Agile Scrum method<br /><br />Technical stack :<br />- Frontend : Next TS<br />- Backend : Symfony (PHP), API Platform<br />- Storage: MySQL",
     },
     {
       company: "Ministry of Armed Forces",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://www.defense.gouv.fr",
       location: "Paris, France",
       title: "Software Engineer (Work-study program)",
       logoUrl: "/ministere_des_armees.jpeg",
       start: "September 2022",
       end: "August 2023",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "- Participation in design discussions<br />- Development of major functionalities<br />- Tool deployment (Release Captain)<br />- Agile Kanban method<br /><br />Technical stack :<br />- Frontend : React TS<br />- Backend : Java<br />- Storage: MySQL and ElasticSearch<br />- Micro-service architecture",
     },
     {
       company: "Cartesia Junior",
-      href: "https://nvidia.com/",
+      href: "",
       badges: [],
-      location: "Santa Clara, CA",
+      location: "Paris, France",
       title: "Chief Technical Officer",
       logoUrl: "/cartesia_junior.jpeg",
       start: "September 2022",
       end: "August 2023",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Junior-Enterprise of the IUT de Paris - Rives de Seine (Université Paris Cité)<br/><br />- Participation in decision-making to improve services and performance<br />- Administration of IT infrastructure<br />- Implementation of web infrastructure on AWS (Docker, Nginx)<br />- Management and coordination of a team of 8 people",
     },
   ],
   education: [
