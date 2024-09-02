@@ -151,7 +151,7 @@ export const DATA = {
     },
     {
       title: "CountryGuesser",
-      href: "https://playcountryguesser.netlify.app/game",
+      href: "https://playcountryguesser.netlify.app/",
       dates: "June 2023 - Present",
       active: true,
       description:
