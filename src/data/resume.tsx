@@ -109,15 +109,15 @@ export const DATA = {
   education: [
     {
       school: "IMT Atlantique",
-      href: "https://buildspace.so",
-      degree: "Master of Engineering",
+      href: "https://www.imt-atlantique.fr/",
+      degree: "MSc in Engineering",
       logoUrl: "/imt_atlantique.png",
       start: "2023",
       end: "2026",
     },
     {
       school: "IUT de Paris - Rives de Seine",
-      href: "https://uwaterloo.ca",
+      href: "https://iutparis-seine.u-paris.fr",
       degree: "Bachelor's Degree of Computer Science",
       logoUrl: "iut_paris_rives_de_seine.jpeg",
       start: "2022",
