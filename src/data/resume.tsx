@@ -76,7 +76,7 @@ export const DATA = {
       location: "Le Mans, France",
       title: "Software Engineer (Work-study program)",
       logoUrl: "/renault_group.jpeg",
-      start: "September 2021",
+      start: "September 2023",
       end: "Current",
       description:
         "- Digital transformation of Le Mans plant processes<br />- Analysis of requirements and proposal of appropriate solutions<br />- Maintenance of existing applications<br />- Agile Scrum method<br /><br />Technical stack :<br />- Frontend : Next TS<br />- Backend : Symfony (PHP), API Platform<br />- Storage: MySQL",
