@@ -104,6 +104,6 @@ export const ResumeCard = ({
           )}
         </div>
       </Card>
-    </Link>
+    </Link> 
   );
 };

@@ -128,7 +128,6 @@ export const DATA = {
     {
       title: "Loup Garou AI",
       href: "https://github.com/jordanbmrd/24h-du-code-2024",
-      dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
         "The Werewolf game adapts the board game for play against an AI powered by Mistral AI. Players can choose from three roles: Villager, Seer, or Werewolf. The AI, accessed via an API on ngrok, provides realistic decisions and chat messages for an immersive experience.",
@@ -152,7 +151,6 @@ export const DATA = {
     {
       title: "CountryGuesser",
       href: "https://playcountryguesser.netlify.app/",
-      dates: "June 2023 - Present",
       active: true,
       description:
         "CountryGuesser is a game in which you have to find the country on the globe based on a randomly displayed flag. There are 3 clues to choose from. The game can be played alone or with friends.",
@@ -179,7 +177,6 @@ export const DATA = {
     {
       title: "BLKJCK (minimalist blackjack)",
       href: "https://blkjck.netlify.app",
-      dates: "April 2023 - September 2023",
       active: true,
       description:
         "A minimalist blackjack game offering a clean, straightforward interface focused on the core mechanics. Play against the dealer in a streamlined environment, with simple controls and no distractions. Ideal for quick, casual play while enjoying the classic card game.",
@@ -205,7 +202,6 @@ export const DATA = {
     {
       title: "Tennis Computer Analysis",
       href: "https://github.com/jordanbmrd/tennis-computer-analysis",
-      dates: "April 2023 - March 2024",
       active: true,
       description:
         "Analyses a tennis game on a video. It detects players and the ball using Yolo and uses CNNs to extract court key points.",

@@ -141,7 +141,6 @@ export default function Page() {
                       key={project.title}
                       title={project.title}
                       description={project.description}
-                      dates={project.dates}
                       tags={project.technologies}
                       image={project.image}
                       video={project.video}
@@ -185,7 +184,7 @@ export default function Page() {
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {DATA.hackathons.map((project, id) => (
                 <BlurFade
-                  key={project.title + project.dates}
+                  key={project.title}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
                 >
                   <HackathonCard
