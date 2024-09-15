@@ -162,7 +162,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://playcountryguesser.netlify.app/game",
+          href: "https://playcountryguesser.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
