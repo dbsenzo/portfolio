@@ -225,7 +225,7 @@ export const DATA = {
   hackathons: [
     {
       title: "Startup Weekend",
-      dates: "November 2024",
+      dates: "November 15th - 17th 2024",
       location: "Nantes, France",
       description:
           "Coming soon...",
