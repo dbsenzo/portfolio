@@ -234,16 +234,6 @@ export const DATA = {
       links: [],
     },
     {
-      title: "NASA Space Apps Challenge",
-      dates: "October 5th - 6th, 2024",
-      location: "Paris, France",
-      description:
-          "Coming soon...",
-      image:
-          "/nasa_space_apps.png",
-      links: [],
-    },
-    {
       title: "24 hours of code",
       dates: "April 6th - 7th, 2024",
       location: "Le Mans, France",
