@@ -13,14 +13,16 @@ export const DATA = {
     "Keen on new technologies and computer programming since I was young, my ambition is to become a Software Engineer. Currently in my [second year of Computer Science engineer’s degree at the IMT Atlantique](/#education) based in Brest (FR), I have already made a [few projects](/#projects) such as online games, showcase websites, and e-commerce platforms. I have proven my ability to create large-scale applications that have a positive impact.",
   avatarUrl: "/profile_picture.jpg",
   skills: [
-    "React",
+    "React.js",
     "Next.js",
-    "Typescript",
-    "Node.js",
-    "SQL",
-    "Python",
-    "Docker",
+    "TypeScript",
     "Java",
+    "Symfony",
+    "PHP",
+    "Python",
+    "SQL",
+    "NoSQL",
+    "Docker",
     "C",
   ],
   navbar: [
@@ -79,7 +81,7 @@ export const DATA = {
       start: "September 2023",
       end: "Current",
       description:
-        "- Digital transformation of Le Mans plant processes<br />- Analysis of requirements and proposal of appropriate solutions<br />- Maintenance of existing applications<br />- Agile Scrum method<br /><br />Technical stack :<br />- Frontend : Next TS<br />- Backend : Symfony (PHP), API Platform<br />- Storage: MySQL",
+        "- Digital transformation of Le Mans plant processes<br />- Analysis of requirements and proposal of appropriate solutions<br />- Maintenance of existing applications<br />- Agile Scrum method<br /><br />Technical stack :<br />- Frontend : Next.js (TypeScript)<br />- Backend : Symfony (PHP), API Platform<br />- Database : MySQL",
     },
     {
       company: "Ministry of Armed Forces",
@@ -91,7 +93,7 @@ export const DATA = {
       start: "September 2022",
       end: "August 2023",
       description:
-        "- Participation in design discussions<br />- Development of major functionalities<br />- Tool deployment (Release Captain)<br />- Agile Kanban method<br /><br />Technical stack :<br />- Frontend : React TS<br />- Backend : Java<br />- Storage: MySQL and ElasticSearch<br />- Micro-service architecture",
+        "- Participation in design discussions<br />- Development of major features<br />- Tool deployment (Release Captain)<br />- Agile Kanban method<br /><br />Technical stack :<br />- Frontend : React.js (TypeScript)<br />- Backend : Java<br />- Database : MySQL and ElasticSearch<br />- Micro-service architecture",
     },
     {
       company: "Cartesia Junior",
@@ -103,7 +105,7 @@ export const DATA = {
       start: "September 2022",
       end: "August 2023",
       description:
-        "Junior-Enterprise of the IUT de Paris - Rives de Seine (Université Paris Cité)<br/><br />- Participation in decision-making to improve services and performance<br />- Administration of IT infrastructure<br />- Implementation of web infrastructure on AWS (Docker, Nginx)<br />- Management and coordination of a team of 8 people",
+        "Junior-Enterprise of the Paris Institute of Technology (Paris Cité University)<br/><br />- Management and coordination of a team of 8 people<br />- Participation in decision-making to improve services and performance<br />- Administration of IT infrastructure<br />- Implementation of web infrastructure on AWS (Docker, Nginx)",
     },
   ],
   education: [
@@ -207,7 +209,7 @@ export const DATA = {
         "Analyses a tennis game on a video. It detects players and the ball using Yolo and uses CNNs to extract court key points.",
       technologies: [
         "Python",
-        "YOLO",
+        "YOLOv5",
         "Machine Learning"
       ],
       links: [
