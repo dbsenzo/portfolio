@@ -26,8 +26,8 @@ export const DATA = {
     "C",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://resume.jordanbaumard.fr", icon: PaperclipIcon, label: "Resume" },
+    { href: "/", icon: HomeIcon, label: "Accueil" },
+    { href: "https://resume.jordanbaumard.fr", icon: PaperclipIcon, label: "CV" },
   ],
   contact: {
     email: "jordanbmrd@gmail.com",
@@ -81,7 +81,7 @@ export const DATA = {
       start: "September 2023",
       end: "Current",
       description:
-        "- Digital transformation of Le Mans plant processes<br />- Analysis of requirements and proposal of appropriate solutions<br />- Maintenance of existing applications<br />- Agile Scrum method<br /><br />Technical stack :<br />- Frontend : Next.js (TypeScript)<br />- Backend : Symfony (PHP), API Platform<br />- Database : MySQL",
+        "- Developed multiple full-stack web applications for industrial process optimization<br />- Analysis of requirements and proposal of appropriate solutions<br />- Led a key project-management app generating €630k annual savings across Renault’s French plants.<br />- Set up CI/CD pipelines to automate the deployment of our applications.<br />- Operated in agile mode (Scrum).<br /><br />Technical stack :<br />- Frontend : Next.js (TypeScript)<br />- Backend : Symfony (PHP), API Platform<br />- Database : MySQL<br />- Tests : Playwright",
     },
     {
       company: "Ministry of Armed Forces",
@@ -93,7 +93,7 @@ export const DATA = {
       start: "September 2022",
       end: "August 2023",
       description:
-        "- Participation in design discussions<br />- Development of major features<br />- Tool deployment (Release Captain)<br />- Agile Kanban method<br /><br />Technical stack :<br />- Frontend : React.js (TypeScript)<br />- Backend : Java<br />- Database : MySQL and ElasticSearch<br />- Micro-service architecture",
+        "- Developed and maintained a data visualization web application using React.js and Java.<br />- Conceived complex new features to increase the efficiency of the company.<br />- Introduced a gamification module that doubled the number of users in 6 months.<br /><br />Technical stack :<br />- Frontend : React.js (TypeScript)<br />- Backend : Java, Spring<br />- Database : MySQL, ElasticSearch<br />- Microservices architecture",
     },
     {
       company: "Cartesia Junior",
@@ -120,7 +120,7 @@ export const DATA = {
     {
       school: "IUT de Paris - Rives de Seine",
       href: "https://iutparis-seine.u-paris.fr",
-      degree: "Bachelor's Degree of Computer Science",
+      degree: "BS in Computer Science",
       logoUrl: "iut_paris_rives_de_seine.jpeg",
       start: "2021",
       end: "2023",
@@ -128,7 +128,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Loup Garou AI",
+      title: "Werewolf AI",
       href: "https://github.com/jordanbmrd/24h-du-code-2024",
       active: true,
       description:
