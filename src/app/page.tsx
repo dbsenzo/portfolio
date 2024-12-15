@@ -153,7 +153,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <div className="flex justify-center text-gray-400">
               <a href={DATA.contact.social.GitHub.url} target="_blank">
-                See more on my Github
+                See more on my GitHub Profile
               </a>
             </div>
           </BlurFade>
