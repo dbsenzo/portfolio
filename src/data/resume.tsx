@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer and student passionate about Computer Science. I love building things and helping people.",
   summary:
-    "Keen on new technologies and computer programming since I was young, my ambition is to become a Software Engineer. Currently in my [second year of Computer Science engineer’s degree at the IMT Atlantique](/#education) based in Brest (FR), I have already made a [few projects](/#projects) such as online games, showcase websites, and e-commerce platforms. I have proven my ability to create large-scale applications that have a positive impact.",
+    "Keen on new technologies and computer programming since I was young, my ambition is to become a Software Engineer. Currently in my second year of the M.Sc. in Engineering program in France, I have created real-world projects, including showcase websites, e-commerce websites or online games, showcasing my ability to create large-scale and impactful projects. Passionate, hardworking, and a strong team player, I am committed to delivering high-quality solutions that make a difference.",
   avatarUrl: "/profile_picture.jpg",
   skills: [
     "React.js",
