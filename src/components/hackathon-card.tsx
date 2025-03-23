@@ -13,6 +13,7 @@ interface Props {
     title: string;
     href: string;
   }[];
+  position?: "first" | "second" | "third" | null;
 }
 
 export function HackathonCard({
@@ -22,6 +23,7 @@ export function HackathonCard({
   location,
   image,
   links,
+  position
 }: Props) {
   return (
     <li className="relative ml-10 py-4">
@@ -35,7 +37,18 @@ export function HackathonCard({
         {dates && (
           <time className="text-xs text-muted-foreground">{dates}</time>
         )}
-        <h2 className="font-semibold leading-none">{title}</h2>
+        <div className="flex justify-between items-center">
+          <h2 className="font-semibold leading-none">{title}</h2>
+          {
+            position === "first" ? (
+              <h2 className="font-semibold leading-none">🥇 1st prize</h2>
+            ) : position === "second" ? (
+              <h2 className="font-semibold leading-none">🥈 2nd prize</h2>
+            ) : position === "third" ? (
+              <h2 className="font-semibold leading-none">🥉 3rd prize</h2>
+            ) : null
+          }
+        </div>
         {location && (
           <p className="text-sm text-muted-foreground">{location}</p>
         )}

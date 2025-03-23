@@ -234,6 +234,7 @@ export const DATA = {
       image:
           "/startup_weekend.jpg",
       links: [],
+      position: null,
     },
     {
       title: "24 hours of code",
@@ -254,6 +255,7 @@ export const DATA = {
           href: "https://www.linkedin.com/posts/jordanbaumard_24hcode-24hducode-activity-7182793006045876226-08qD",
         },
       ],
+      position: "first"
     },
     {
       title: "IT for Green",
@@ -275,6 +277,7 @@ export const DATA = {
           href: "https://www.linkedin.com/posts/jordanbaumard_hackathon-it-for-green-janvier-2024-activity-7157281146723078144-DN8g",
         },
       ],
+      position: "first"
     },
     {
       title: "Accenture x AWS Deepracer Cup",
@@ -297,6 +300,7 @@ export const DATA = {
           href: "https://www.linkedin.com/posts/jordanbaumard_awsdeepracer-challengeaccepted-machinelearning-activity-7143601069070192640-Lria",
         },
       ],
+      position: "second"
     },
     {
       title: "24 hours of IUT",
@@ -318,6 +322,7 @@ export const DATA = {
           href: "https://www.linkedin.com/posts/jordanbaumard_24h-des-iut-mai-2023-retour-sur-activity-7063825915960553472-_e7_",
         },
       ],
+      position: "second"
     },
     {
       title: "Startup Weekend",
@@ -334,6 +339,7 @@ export const DATA = {
           href: "https://github.com/cryptotrends/cryptotrends",
         },
       ],
+      position: null,
     },
   ],
 } as const;
