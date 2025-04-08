@@ -226,6 +226,25 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "From LLM to AI Agents",
+      dates: "April 4th - 6th 2025",
+      location: "Cergy, France",
+      description:
+          "Organized by Kryptosphere and Utopia<br />" +
+          "Sponsored by Mistral AI, AWS, Google, Ledger, Bpifrance<br /><br />" +
+          "Coming soon...",
+      image:
+          "/kryptosphere.png",
+      links: [
+        {
+          title: "Linkedin Post",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/posts/jordanbaumard_hackathon-first-place-across-all-tracks-activity-7315028317865193473-41j6",
+        },
+      ],
+      position: "first",
+    },
+    {
       title: "Startup Weekend",
       dates: "November 15th - 17th 2024",
       location: "Nantes, France",
@@ -233,7 +252,13 @@ export const DATA = {
           "Coming soon...",
       image:
           "/startup_weekend.jpg",
-      links: [],
+      links: [
+        {
+          title: "Linkedin Post",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/posts/jordanbaumard_startupweekend-entrepreuneuriat-innovation-activity-7264284341185175555-0E7q",
+        },
+      ],
       position: null,
     },
     {
