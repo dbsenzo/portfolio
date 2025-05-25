@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import {PaperclipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon} from "lucide-react";
+import { PaperclipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Jordan Baumard",
@@ -71,6 +71,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "De Montfort University",
+      href: "https://www.dmu.ac.uk/",
+      badges: [],
+      location: "Leicester, United Kingdom",
+      title: "ML Research Intern",
+      logoUrl: "/dmu.png",
+      start: "May 2025",
+      end: "Current",
+      description:
+        "- Collaborated with university researchers to develop a machine learning model for predicting architectural issues in Python projects.",
+    },
     {
       company: "Renault Group",
       href: "https://www.renaultgroup.com",
@@ -230,11 +242,11 @@ export const DATA = {
       dates: "April 4th - 6th 2025",
       location: "Cergy, France",
       description:
-          "Organized by Kryptosphere and Utopia<br />" +
-          "Sponsored by Mistral AI, AWS, Google, Ledger, Bpifrance<br /><br />" +
-          "Coming soon...",
+        "Organized by Kryptosphere and Utopia<br />" +
+        "Sponsored by Mistral AI, AWS, Google, Ledger, Bpifrance<br /><br />" +
+        "Coming soon...",
       image:
-          "/kryptosphere.png",
+        "/kryptosphere.png",
       links: [
         {
           title: "Linkedin Post",
@@ -249,9 +261,9 @@ export const DATA = {
       dates: "November 15th - 17th 2024",
       location: "Nantes, France",
       description:
-          "Coming soon...",
+        "Coming soon...",
       image:
-          "/startup_weekend.jpg",
+        "/startup_weekend.jpg",
       links: [
         {
           title: "Linkedin Post",
@@ -354,9 +366,9 @@ export const DATA = {
       dates: "Whatever month 2018",
       location: "Le Mans, France",
       description:
-          "I met a lot of interesting people and we created together an MVP of an educational web application for young children.",
+        "I met a lot of interesting people and we created together an MVP of an educational web application for young children.",
       image:
-          "/startup_weekend.jpg",
+        "/startup_weekend.jpg",
       links: [
         {
           title: "Github",
