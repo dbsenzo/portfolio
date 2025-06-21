@@ -173,7 +173,7 @@ export default function CouponCalinPage() {
                                 ✨ Câlin virtuel #{calinsCount} envoyé ! ✨
                             </p>
                             <p className="text-sm mt-2">
-                                Rechargez vos batteries avec de l'amour ! 💕
+                                Rechargez vos batteries avec de l&apos;amour ! 💕
                             </p>
                         </div>
                     )}
