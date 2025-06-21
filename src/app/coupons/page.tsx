@@ -1,16 +1,64 @@
 "use client"
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function CouponCalinPage() {
     const [isAnimating, setIsAnimating] = useState(false);
     const [calinsCount, setCalinsCount] = useState(0);
+    const [isMounted, setIsMounted] = useState(false);
+
+    // S'assurer que le composant est monté côté client
+    useEffect(() => {
+        setIsMounted(true);
+
+        // Charger depuis localStorage après le montage
+        const loadFromStorage = () => {
+            try {
+                const savedCount = localStorage.getItem('calinsCount');
+                if (savedCount !== null) {
+                    const parsedCount = parseInt(savedCount, 10);
+                    if (!isNaN(parsedCount) && parsedCount >= 0) {
+                        setCalinsCount(parsedCount);
+                        console.log('Compteur chargé depuis localStorage:', parsedCount);
+                    } else {
+                        localStorage.setItem('calinsCount', '0');
+                        setCalinsCount(0);
+                        console.log('Valeur localStorage invalide, réinitialisée à 0');
+                    }
+                } else {
+                    localStorage.setItem('calinsCount', '0');
+                    setCalinsCount(0);
+                    console.log('localStorage initialisé à 0');
+                }
+            } catch (error) {
+                console.error('Erreur localStorage:', error);
+                setCalinsCount(0);
+            }
+        };
+
+        loadFromStorage();
+    }, []);
 
     const handleClick = () => {
+        if (isAnimating) return;
+
+        setIsAnimating(true);
+
         // Incrémenter le compteur
-        setCalinsCount(prev => prev + 1);
-        console.log(calinsCount);
+        setCalinsCount(prevCount => {
+            const newCount = prevCount + 1;
+
+            // Sauvegarder dans localStorage
+            try {
+                localStorage.setItem('calinsCount', newCount.toString());
+                console.log('Compteur sauvegardé:', newCount);
+            } catch (error) {
+                console.error('Erreur lors de la sauvegarde:', error);
+            }
+
+            return newCount;
+        });
 
         // Reset animation after 1 second
         setTimeout(() => setIsAnimating(false), 1000);
@@ -18,7 +66,26 @@ export default function CouponCalinPage() {
 
     const resetCounter = () => {
         setCalinsCount(0);
+        try {
+            localStorage.setItem('calinsCount', '0');
+            console.log('Compteur réinitialisé');
+        } catch (error) {
+            console.error('Erreur lors de la réinitialisation:', error);
+        }
     };
+
+    // Afficher un écran de chargement très bref seulement si pas encore monté
+    if (!isMounted) {
+        return (
+            <div className="fixed inset-0 w-full h-full overflow-auto bg-gradient-to-br from-pink-50 to-purple-50 dark:from-gray-900 dark:to-gray-800">
+                <div className="flex flex-col items-center justify-center min-h-full p-8">
+                    <div className="text-center">
+                        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-pink-500 mx-auto"></div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="fixed inset-0 w-full h-full overflow-auto bg-gradient-to-br from-pink-50 to-purple-50 dark:from-gray-900 dark:to-gray-800">
@@ -50,7 +117,7 @@ export default function CouponCalinPage() {
                         )}
                     </div>
 
-                    {/* Image avec animation */}
+                    {/* Image avec animation - dimensions ajustées */}
                     <div
                         className={`relative mb-8 transform transition-all duration-500 ${isAnimating
                             ? 'scale-110 rotate-3 shadow-2xl shadow-pink-300/50'
@@ -80,7 +147,7 @@ export default function CouponCalinPage() {
                         )}
                     </div>
 
-                    {/* Bouton avec animation */}
+                    {/* Bouton avec animation - amélioré pour la visibilité */}
                     <div className="flex justify-center mb-6">
                         <button
                             onClick={handleClick}
@@ -129,4 +196,4 @@ export default function CouponCalinPage() {
             </div>
         </div>
     );
-} 
+}
