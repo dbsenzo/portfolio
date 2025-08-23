@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer and student passionate about Computer Science. I love building things and helping people.",
   summary:
-    "Keen on new technologies and computer programming since I was young, my ambition is to become a Software Engineer. Currently in my second year of the M.Sc. in Engineering program in France, I have created real-world projects, including showcase websites, e-commerce websites or online games, showcasing my ability to create large-scale and impactful projects. Passionate, hardworking, and a strong team player, I am committed to delivering high-quality solutions that make a difference.",
+    "Keen on new technologies and computer programming since I was young, my ambition is to become a Software Engineer. Currently in my third year of the M.Sc. in Engineering program in France, I have created real-world projects, including showcase websites, e-commerce websites or online games, showcasing my ability to create large-scale and impactful projects. Passionate, hardworking, and a strong team player, I am committed to delivering high-quality solutions that make a difference.",
   avatarUrl: "/profile_picture.jpg",
   skills: [
     "React.js",
@@ -72,18 +72,6 @@ export const DATA = {
 
   work: [
     {
-      company: "De Montfort University",
-      href: "https://www.dmu.ac.uk/",
-      badges: [],
-      location: "Leicester, United Kingdom",
-      title: "ML Research Intern",
-      logoUrl: "/dmu.png",
-      start: "May 2025",
-      end: "Current",
-      description:
-        "- Collaborated with university researchers to develop a machine learning model for predicting architectural issues in Python projects.",
-    },
-    {
       company: "Renault Group",
       href: "https://www.renaultgroup.com",
       badges: [],
@@ -94,6 +82,18 @@ export const DATA = {
       end: "Current",
       description:
         "- Developed multiple full-stack web applications for industrial process optimization<br />- Analysis of requirements and proposal of appropriate solutions<br />- Led a key project-management app generating €630k annual savings across Renault’s French plants.<br />- Set up CI/CD pipelines to automate the deployment of our applications.<br />- Operated in agile mode (Scrum).<br /><br />Technical stack :<br />- Frontend : Next.js (TypeScript)<br />- Backend : Symfony (PHP), API Platform<br />- Database : MySQL<br />- Tests : Playwright",
+    },
+    {
+      company: "De Montfort University",
+      href: "https://www.dmu.ac.uk/",
+      badges: [],
+      location: "Leicester, United Kingdom",
+      title: "ML Research Intern",
+      logoUrl: "/dmu.png",
+      start: "May 2025",
+      end: "August 2025",
+      description:
+        "- Collaborated with university researchers to develop a machine learning model for predicting architectural issues in Python projects.",
     },
     {
       company: "Ministry of Armed Forces",
@@ -237,6 +237,25 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "LLM x Law Hackathon",
+      dates: "June 20th - 22th 2025",
+      location: "Cambridge, United Kingdom",
+      description:
+        "Organized by University of Cambridge, King's College Cambridge and CodeX (the Stanford Center for Legal Informatics)<br />" +
+        "Sponsored by Google, Jus Mundi, Clifford Chance, and more<br /><br />" +
+        "Coming soon...",
+      image:
+        "/university_of_cambridge.png",
+      links: [
+        {
+          title: "Linkedin Post",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/posts/jordanbaumard_3-days-150-cracked-people-people-from-activity-7346202255911469056-ooWW"
+        },
+      ],
+      position: "second",
+    },
     {
       title: "From LLM to AI Agents",
       dates: "April 4th - 6th 2025",
