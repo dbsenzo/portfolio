@@ -165,6 +165,7 @@ export const DATA = {
         }
       ],
       image: "",
+      video: ""
     }
   ],
   hackathons: [
