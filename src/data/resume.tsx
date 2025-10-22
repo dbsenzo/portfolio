@@ -2,15 +2,15 @@ import { Icons } from "@/components/icons";
 import { PaperclipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Jordan Baumard",
-  initials: "JB",
+  name: "Enzo Desbois",
+  initials: "ED",
   url: "https://jordanbaumard.fr",
-  location: "Brest, France",
-  locationLink: "https://www.google.com/maps/place/brest",
+  location: "Paris, France",
+  locationLink: "https://www.google.com/maps/place/paris",
   description:
-    "Software Engineer and student passionate about Computer Science. I love building things and helping people.",
+    "Machine Learning Engineer and computer engineering student passionate about AI. I love solving problems using machine learning.",
   summary:
-    "Keen on new technologies and computer programming since I was young, my ambition is to become a Software Engineer. Currently in my third year of the M.Sc. in Engineering program in France, I have created real-world projects, including showcase websites, e-commerce websites or online games, showcasing my ability to create large-scale and impactful projects. Passionate, hardworking, and a strong team player, I am committed to delivering high-quality solutions that make a difference.",
+    "TO EDIT",
   avatarUrl: "/profile_picture.jpg",
   skills: [
     "React.js",
@@ -23,26 +23,29 @@ export const DATA = {
     "SQL",
     "NoSQL",
     "Docker",
-    "C",
+    "Pandas",
+    "scikit-learn",
+    "TensorFlow",
+    "Keras",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Accueil" },
-    { href: "https://resume.jordanbaumard.fr", icon: PaperclipIcon, label: "CV" },
+    // { href: "https://resume.jordanbaumard.fr", icon: PaperclipIcon, label: "CV" },
   ],
   contact: {
-    email: "jordanbmrd@gmail.com",
-    tel: "+33781334762",
+    email: "enzo.desbois@efrei.net",
+    tel: "+333630",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/jordanbmrd",
+        url: "https://github.com/dbsenzo",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/jordanbaumard/",
+        url: "https://www.linkedin.com/in/edesbois/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -60,13 +63,13 @@ export const DATA = {
       //   icon: Icons.youtube,
       //   navbar: true,
       // },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
+      // email: {
+      //   name: "Send Email",
+      //   url: "#",
+      //   icon: Icons.email,
 
-        navbar: false,
-      },
+      //   navbar: false,
+      // },
     },
   },
 
