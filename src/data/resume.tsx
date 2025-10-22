@@ -80,7 +80,7 @@ export const DATA = {
       badges: [],
       location: "Le Mans, France",
       title: "Machine Learning Engineer (Work-study program)",
-      logoUrl: "/renault_group.jpeg",
+      logoUrl: "renault_group.jpeg",
       start: "November 2024",
       end: "Current",
       description:
@@ -96,7 +96,7 @@ export const DATA = {
       start: "September 2022",
       end: "November 2024",
       description:
-        "• Led a full-stack development project for Renault Group's industrial division in France, delivering annual gains of +€1XX.XXX, including one achieving €7X.XXX annually.<br/>• Conducted code reviews, ensuring high standards and best practices.<br/>• Translated business needs into technical solutions, from analysis to deployment.<br/>• Designed, developed, and maintained web applications, optimizing performance.<br/>• Improved database efficiency through development, query optimization, and report generation (BI4/BO, Spotfire).<br />• Managed Windows server administration to ensure stable deployment environments.<br/>• Translated business needs into technical solutions, from analysis to deployment.<br/>• Designed, developed, and maintained web applications, optimizing performance.<br/>• Improved database efficiency through development, query optimization, and report generation (BI4/BO, Spotfire).<br />• Managed Windows server administration to ensure stable deployment environments.",
+        "• Led a full-stack development project for Renault Group's industrial division in France, delivering annual gains of +€1XX.XXX, including one achieving €7X.XXX annually.<br/>• Conducted code reviews, ensuring high standards and best practices.<br/>• Translated business needs into technical solutions, from analysis to deployment.<br/>• Designed, developed, and maintained web applications, optimizing performance.<br/>• Improved database efficiency through development, query optimization, and report generation (BI4/BO, Spotfire).<br />• Managed Windows server administration to ensure stable deployment environments.",
     },
   ],
   education: [
