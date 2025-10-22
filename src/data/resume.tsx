@@ -92,7 +92,7 @@ export const DATA = {
       href: "https://www.renaultgroup.com",
       location: "Le Mans, France",
       title: "Software Engineer (Work-study program)",
-      logoUrl: "/renault_group.jpeg",
+      logoUrl: "renault_group.jpeg",
       start: "September 2022",
       end: "November 2024",
       description:
@@ -104,7 +104,7 @@ export const DATA = {
       school: "EFREI - Paris",
       href: "https://www.efrei.fr/",
       degree: "MSc in Engineering",
-      logoUrl: "/efrei.svg",
+      logoUrl: "efrei.svg",
       start: "2023",
       end: "2026",
     },
@@ -112,7 +112,7 @@ export const DATA = {
       school: "IUT de Laval",
       href: "https://iut-laval.univ-lemans.fr/fr/index.html",
       degree: "BS in Computer Science",
-      logoUrl: "/iut_laval.png",
+      logoUrl: "iut_laval.png",
       start: "2021",
       end: "2023",
     },
@@ -137,9 +137,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "werewolves.png",
       video:
-        "/videos/LoupGarouAI.mov",
+        "videos/LoupGarouAI.mov",
     },
     {
       title: "Lameilleureauto.fr",
@@ -164,8 +164,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
-      video: ""
+      image: "lameilleureauto.png",
+      video: "videos/doesnt_exist.mp4"
     }
   ],
   hackathons: [
@@ -175,7 +175,7 @@ export const DATA = {
       location: "Le Mans, France",
       description: "I wanted to tackle new technical challenges by taking part in the 24H du Code with Jordan Baumard and Samy Bouhamidi. Our aim was to produce a board game (Loup-garou) playable by a human being against several AIs playing the different roles.<br /><br />After implementing an LLM (Mistral-7B-Instruct-v0.2) on Google Colab and learning new things like quantization and the use of Langchain, we set up an original GUI with Three.js (see video below) and made it communicate with our server and the LLM.<br /><br />With +200 participants divided into 49 teams and facing 5 different topics, the competition was tough, but we managed to stand out and come in 1st in the topic led by Le Mans School of AI.",
       image:
-        "/24h_du_code_2024.png",
+        "24h_du_code_2024.png",
       links: [
         {
           title: "Github",
@@ -197,7 +197,7 @@ export const DATA = {
       description:
         "We thought about how to meet tomorrow's environmental challenges by putting our IT skills to the test. Today, digital technology accounts for 4% of global CO2 emissions, so we need to use it wisely.<br /><br />We were awarded 1st prize in the “IT4Green” competition for our e-commerce platform project featuring eco-responsible businesses, giving visibility to local events that benefit the environment, and including innovative educational content on ecology (DIY, repairs, etc.).",
       image:
-        "/it_for_green.jpg",
+        "it_for_green.jpg",
       links: [
         {
           title: "Figma",
@@ -220,7 +220,7 @@ export const DATA = {
         "Organized by Accenture France in collaboration with Amazon Web Services (AWS), AWS DeepRacer is a competition that develops artificial intelligence skills by training a small car to drive autonomously using reinforcement learning.<br /><br />We got the 2nd prize !",
       icon: "public",
       image:
-        "/deepracer.png",
+        "deepracer.png",
       links: [
         {
           title: "Github",
