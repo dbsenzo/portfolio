@@ -4,14 +4,14 @@ import { PaperclipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon } f
 export const DATA = {
   name: "Enzo Desbois",
   initials: "ED",
-  url: "https://jordanbaumard.fr",
+  url: "https://enzodesbois.fr",
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/paris",
   description:
     "Machine Learning Engineer and computer engineering student passionate about AI. I love solving problems using machine learning.",
   summary:
-    "TO EDIT",
-  avatarUrl: "/profile_picture.jpg",
+    "I’m a French engineering student at EFREI Paris, passionate about data science and cutting-edge AI technologies. Outside of tech, I’m also a big fan of sports, especially running and weightlifting, balance is key! Always open to learning, sharing ideas, and connecting with others who love innovation",
+  avatarUrl: "/profile_picture.png",
   skills: [
     "React.js",
     "Next.js",
@@ -79,64 +79,40 @@ export const DATA = {
       href: "https://www.renaultgroup.com",
       badges: [],
       location: "Le Mans, France",
-      title: "Software Engineer (Work-study program)",
+      title: "Machine Learning Engineer (Work-study program)",
       logoUrl: "/renault_group.jpeg",
-      start: "September 2023",
+      start: "November 2024",
       end: "Current",
       description:
-        "- Developed multiple full-stack web applications for industrial process optimization<br />- Analysis of requirements and proposal of appropriate solutions<br />- Led a key project-management app generating €630k annual savings across Renault’s French plants.<br />- Set up CI/CD pipelines to automate the deployment of our applications.<br />- Operated in agile mode (Scrum).<br /><br />Technical stack :<br />- Frontend : Next.js (TypeScript)<br />- Backend : Symfony (PHP), API Platform<br />- Database : MySQL<br />- Tests : Playwright",
+        "• Developed an unsupervised predictive maintenance model for CNC machining tools.<br/>• Built a complete data processing pipeline.<br/>• Designed and deployed a self-supervised health monitoring system with no labeled failure data.<br/>• Created visualization tools to track tool health evolution and estimate Remaining Useful Lifetime (RUL).",
     },
     {
-      company: "De Montfort University",
-      href: "https://www.dmu.ac.uk/",
+      company: "Renault Group",
       badges: [],
-      location: "Leicester, United Kingdom",
-      title: "ML Research Intern",
-      logoUrl: "/dmu.png",
-      start: "May 2025",
-      end: "August 2025",
-      description:
-        "- Collaborated with university researchers to develop a machine learning model for predicting architectural issues in Python projects.",
-    },
-    {
-      company: "Ministry of Armed Forces",
-      badges: [],
-      href: "https://www.defense.gouv.fr",
-      location: "Paris, France",
+      href: "https://www.renaultgroup.com",
+      location: "Le Mans, France",
       title: "Software Engineer (Work-study program)",
-      logoUrl: "/ministere_des_armees.jpeg",
+      logoUrl: "/renault_group.jpeg",
       start: "September 2022",
-      end: "August 2023",
+      end: "November 2024",
       description:
-        "- Developed and maintained a data visualization web application using React.js and Java.<br />- Conceived complex new features to increase the efficiency of the company.<br />- Introduced a gamification module that doubled the number of users in 6 months.<br /><br />Technical stack :<br />- Frontend : React.js (TypeScript)<br />- Backend : Java, Spring<br />- Database : MySQL, ElasticSearch<br />- Microservices architecture",
-    },
-    {
-      company: "Cartesia Junior",
-      href: "",
-      badges: [],
-      location: "Paris, France",
-      title: "Chief Technical Officer",
-      logoUrl: "/cartesia_junior.jpeg",
-      start: "September 2022",
-      end: "August 2023",
-      description:
-        "Junior-Enterprise of the Paris Institute of Technology (Paris Cité University)<br/><br />- Management and coordination of a team of 8 people<br />- Participation in decision-making to improve services and performance<br />- Administration of IT infrastructure<br />- Implementation of web infrastructure on AWS (Docker, Nginx)",
+        "• Led a full-stack development project for Renault Group's industrial division in France, delivering annual gains of +€1XX.XXX, including one achieving €7X.XXX annually.<br/>• Conducted code reviews, ensuring high standards and best practices.<br/>• Translated business needs into technical solutions, from analysis to deployment.<br/>• Designed, developed, and maintained web applications, optimizing performance.<br/>• Improved database efficiency through development, query optimization, and report generation (BI4/BO, Spotfire).<br />• Managed Windows server administration to ensure stable deployment environments.<br/>• Translated business needs into technical solutions, from analysis to deployment.<br/>• Designed, developed, and maintained web applications, optimizing performance.<br/>• Improved database efficiency through development, query optimization, and report generation (BI4/BO, Spotfire).<br />• Managed Windows server administration to ensure stable deployment environments.",
     },
   ],
   education: [
     {
-      school: "IMT Atlantique",
-      href: "https://www.imt-atlantique.fr/",
+      school: "EFREI - Paris",
+      href: "https://www.efrei.fr/",
       degree: "MSc in Engineering",
-      logoUrl: "/imt_atlantique.png",
+      logoUrl: "/efrei.svg",
       start: "2023",
       end: "2026",
     },
     {
-      school: "IUT de Paris - Rives de Seine",
-      href: "https://iutparis-seine.u-paris.fr",
+      school: "IUT de Laval",
+      href: "https://iut-laval.univ-lemans.fr/fr/index.html",
       degree: "BS in Computer Science",
-      logoUrl: "iut_paris_rives_de_seine.jpeg",
+      logoUrl: "/iut_laval.png",
       start: "2021",
       end: "2023",
     },
@@ -144,7 +120,7 @@ export const DATA = {
   projects: [
     {
       title: "Werewolf AI",
-      href: "https://github.com/jordanbmrd/24h-du-code-2024",
+      href: "https://github.com/dbsenzo/24h-du-code-2024",
       active: true,
       description:
         "The Werewolf game adapts the board game for play against an AI powered by Mistral AI. Players can choose from three roles: Villager, Seer, or Werewolf. The AI, accessed via an API on ngrok, provides realistic decisions and chat messages for an immersive experience.",
@@ -157,7 +133,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/jordanbmrd/24h-du-code-2024",
+          href: "https://github.com/dbsenzo/24h-du-code-2024",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -166,140 +142,37 @@ export const DATA = {
         "/videos/LoupGarouAI.mov",
     },
     {
-      title: "CountryGuesser",
-      href: "https://playcountryguesser.netlify.app/",
+      title: "Lameilleureauto.fr",
+      href: "https://lameilleureauto.fr/",
       active: true,
       description:
-        "CountryGuesser is a game in which you have to find the country on the globe based on a randomly displayed flag. There are 3 clues to choose from. The game can be played alone or with friends.",
+      "Lameilleureauto.fr is a website that allows professionals to find the best car for their needs. It’s a side project I developed in my free time with a friend.",
       technologies: [
-        "React.js",
-        "Material UI",
-        "Mapbox",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://playcountryguesser.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/jordanbmrd/CountryGuesser",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/videos/CountryGuesser.mov",
-    },
-    {
-      title: "BLKJCK (minimalist blackjack)",
-      href: "https://blkjck.netlify.app",
-      active: true,
-      description:
-        "A minimalist blackjack game offering a clean, straightforward interface focused on the core mechanics. Play against the dealer in a streamlined environment, with simple controls and no distractions. Ideal for quick, casual play while enjoying the classic card game.",
-      technologies: [
-        "React.js",
-        "Deck of Cards API",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://blkjck.netlify.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/jordanbmrd/BlackJack",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/videos/Blackjack.mov",
-    },
-    {
-      title: "Tennis Computer Analysis",
-      href: "https://github.com/jordanbmrd/tennis-computer-analysis",
-      active: true,
-      description:
-        "Analyses a tennis game on a video. It detects players and the ball using Yolo and uses CNNs to extract court key points.",
-      technologies: [
+        "React",
         "Python",
-        "YOLOv5",
-        "Machine Learning"
+        "MongoDB",
+        "Docker",
+        "Pandas",
+        "scikit-learn",
+        "TensorFlow",
+        "Keras",
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/jordanbmrd/tennis-computer-analysis",
-          icon: <Icons.github className="size-3" />,
-        },
+          type: "Website",
+          href: "https://lameilleureauto.fr/",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
       image: "",
-      video:
-        "/videos/TennisComputerAnalysis.avi",
-    },
+    }
   ],
   hackathons: [
-    {
-      title: "LLM x Law Hackathon",
-      dates: "June 20th - 22th 2025",
-      location: "Cambridge, United Kingdom",
-      description:
-        "Organized by University of Cambridge, King's College Cambridge and CodeX (the Stanford Center for Legal Informatics)<br />" +
-        "Sponsored by Google, Jus Mundi, Clifford Chance, and more<br /><br />" +
-        "Coming soon...",
-      image:
-        "/university_of_cambridge.png",
-      links: [
-        {
-          title: "Linkedin Post",
-          icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/jordanbaumard_3-days-150-cracked-people-people-from-activity-7346202255911469056-ooWW"
-        },
-      ],
-      position: "second",
-    },
-    {
-      title: "From LLM to AI Agents",
-      dates: "April 4th - 6th 2025",
-      location: "Cergy, France",
-      description:
-        "Organized by Kryptosphere and Utopia<br />" +
-        "Sponsored by Mistral AI, AWS, Google, Ledger, Bpifrance<br /><br />" +
-        "Coming soon...",
-      image:
-        "/kryptosphere.png",
-      links: [
-        {
-          title: "Linkedin Post",
-          icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/jordanbaumard_hackathon-first-place-across-all-tracks-activity-7315028317865193473-41j6",
-        },
-      ],
-      position: "first",
-    },
-    {
-      title: "Startup Weekend",
-      dates: "November 15th - 17th 2024",
-      location: "Nantes, France",
-      description:
-        "Coming soon...",
-      image:
-        "/startup_weekend.jpg",
-      links: [
-        {
-          title: "Linkedin Post",
-          icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/jordanbaumard_startupweekend-entrepreuneuriat-innovation-activity-7264284341185175555-0E7q",
-        },
-      ],
-      position: null,
-    },
     {
       title: "24 hours of code",
       dates: "April 6th - 7th, 2024",
       location: "Le Mans, France",
-      description: "I wanted to tackle new technical challenges by taking part in the 24H du Code with Enzo Desbois and Samy Bouhamidi. Our aim was to produce a board game (Loup-garou) playable by a human being against several AIs playing the different roles.<br /><br />After implementing an LLM (Mistral-7B-Instruct-v0.2) on Google Colab and learning new things like quantization and the use of Langchain, we set up an original GUI with Three.js (see video below) and made it communicate with our server and the LLM.<br /><br />With +200 participants divided into 49 teams and facing 5 different topics, the competition was tough, but we managed to stand out and come in 1st in the topic led by Le Mans School of AI.",
+      description: "I wanted to tackle new technical challenges by taking part in the 24H du Code with Jordan Baumard and Samy Bouhamidi. Our aim was to produce a board game (Loup-garou) playable by a human being against several AIs playing the different roles.<br /><br />After implementing an LLM (Mistral-7B-Instruct-v0.2) on Google Colab and learning new things like quantization and the use of Langchain, we set up an original GUI with Three.js (see video below) and made it communicate with our server and the LLM.<br /><br />With +200 participants divided into 49 teams and facing 5 different topics, the competition was tough, but we managed to stand out and come in 1st in the topic led by Le Mans School of AI.",
       image:
         "/24h_du_code_2024.png",
       links: [
@@ -311,7 +184,7 @@ export const DATA = {
         {
           title: "Linkedin Post",
           icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/jordanbaumard_24hcode-24hducode-activity-7182793006045876226-08qD",
+          href: "https://www.linkedin.com/posts/edesbois_24-heures-de-code-%C3%A9dition-2024-ce-activity-7182745720385368064-y4HH",
         },
       ],
       position: "first"
@@ -333,7 +206,7 @@ export const DATA = {
         {
           title: "Linkedin Post",
           icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/jordanbaumard_hackathon-it-for-green-janvier-2024-activity-7157281146723078144-DN8g",
+          href: "https://www.linkedin.com/posts/edesbois_it4green-greeninnovationchamps-cloudhackathon-activity-7157123083504336896-Sbcf",
         },
       ],
       position: "first"
@@ -343,7 +216,7 @@ export const DATA = {
       dates: "March 23rd - 24th, 2018",
       location: "Brest, France",
       description:
-        "Organized by Accenture France in collaboration with Amazon Web Services (AWS), AWS DeepRacer is a competition that develops artificial intelligence skills by training a small car to drive autonomously using machine learning.<br /><br />We got the 2nd prize !",
+        "Organized by Accenture France in collaboration with Amazon Web Services (AWS), AWS DeepRacer is a competition that develops artificial intelligence skills by training a small car to drive autonomously using reinforcement learning.<br /><br />We got the 2nd prize !",
       icon: "public",
       image:
         "/deepracer.png",
@@ -351,54 +224,15 @@ export const DATA = {
         {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/jordanbmrd/aws-accenture-deepracer-cup",
+          href: "https://github.com/dbsenzo/aws-accenture-deepracer-cup",
         },
         {
           title: "Linkedin Post",
           icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/jordanbaumard_awsdeepracer-challengeaccepted-machinelearning-activity-7143601069070192640-Lria",
+          href: "https://www.linkedin.com/posts/edesbois_awsdeepracer-challengeaccepted-machinelearning-activity-7141138669611954176-Gr23",
         },
       ],
       position: "second"
-    },
-    {
-      title: "24 hours of IUT",
-      dates: "May 12th - 13th, 2023",
-      location: "Lyon, France",
-      description:
-        "On the program: Forensic, Pentest, OSINT, Reverse engineering, Steganography, etc. We learned new skills and met some great people !<br /><br />Here are some highlights of our participation with 23 teams present :<br /> - 2nd place in web development<br /> - 3rd place in cybersecurity<br /> - 7th place in algo/prog<br /> - An epic all-nighter",
-      image:
-        "/univ_lyon.png",
-      links: [
-        {
-          title: "Article (Université Paris Cité)",
-          icon: <GraduationCapIcon className="h-4 w-4" />,
-          href: "https://iutparis-seine.u-paris.fr/lequipe-paris-descartes-arrive-3eme-au-challenge-national-des-24h-info-des-iut/",
-        },
-        {
-          title: "Linkedin Post",
-          icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/posts/jordanbaumard_24h-des-iut-mai-2023-retour-sur-activity-7063825915960553472-_e7_",
-        },
-      ],
-      position: "second"
-    },
-    {
-      title: "Startup Weekend",
-      dates: "Whatever month 2018",
-      location: "Le Mans, France",
-      description:
-        "I met a lot of interesting people and we created together an MVP of an educational web application for young children.",
-      image:
-        "/startup_weekend.jpg",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-      ],
-      position: null,
-    },
+    }
   ],
 } as const;
