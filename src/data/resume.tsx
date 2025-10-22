@@ -11,7 +11,7 @@ export const DATA = {
     "Machine Learning Engineer and computer engineering student passionate about AI. I love solving problems using machine learning.",
   summary:
     "I’m a French engineering student at EFREI Paris, passionate about data science and cutting-edge AI technologies. Outside of tech, I’m also a big fan of sports, especially running and weightlifting, balance is key! Always open to learning, sharing ideas, and connecting with others who love innovation",
-  avatarUrl: "/profile_picture.png",
+  avatarUrl: "profile_picture.png",
   skills: [
     "React.js",
     "Next.js",
