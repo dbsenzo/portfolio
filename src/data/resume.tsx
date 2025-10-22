@@ -137,7 +137,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: null,
+      image: "",
       video:
         "videos/LoupGarouAI.mov",
     },
@@ -165,7 +165,7 @@ export const DATA = {
         }
       ],
       image: "lameilleureauto.png",
-      video: null
+      video: ""
     }
   ],
   hackathons: [
