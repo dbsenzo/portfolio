@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { PaperclipIcon, FigmaIcon, GraduationCapIcon, HomeIcon, NotebookIcon } from "lucide-react";
+import { FigmaIcon, HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Enzo Desbois",
@@ -170,6 +170,27 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Hack The Fork", // Remplace par le vrai nom
+      dates: "December 6th - 7th, 2025",
+      location: "Paris, France",
+      description:
+        "Created Fybr, a smart nutrition platform for ultra-runners that combines more digestible plant-based fueling products with a mobile app designed to optimize race-day nutrition. Using Garmin and Strava data, the app adapts fueling strategies over time through a bandit-based learning approach.",
+      image: "hack_the_fork.png",
+      links: [
+        {
+          title: "Figma",
+          icon: <FigmaIcon className="h-4 w-4" />,
+          href: "https://www.figma.com/design/BLuU8S8Cbmjom1UXFERuI7/FYBR?node-id=0-1&p=f",
+        },
+        {
+          title: "Linkedin Post",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/posts/edesbois_hackathon-hackthefork-startup-activity-7406067846625116161-poJs/",
+        },
+      ],
+      position: null,
+    },
+    {
       title: "24 hours of code",
       dates: "April 6th - 7th, 2024",
       location: "Le Mans, France",
@@ -214,7 +235,7 @@ export const DATA = {
     },
     {
       title: "Accenture x AWS Deepracer Cup",
-      dates: "March 23rd - 24th, 2018",
+      dates: "March 23rd - 24th, 2023",
       location: "Brest, France",
       description:
         "Organized by Accenture France in collaboration with Amazon Web Services (AWS), AWS DeepRacer is a competition that develops artificial intelligence skills by training a small car to drive autonomously using reinforcement learning.<br /><br />We got the 2nd prize !",
